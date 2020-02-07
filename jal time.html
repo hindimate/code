@@ -1,0 +1,48 @@
+<html><head>
+<style type="text/css">
+#displaySeconds{background:red; color:#fff;font-weight:bold;padding:0px 3px;border-radius:4px;}
+.ink{display:none;}
+</style>
+  </head>
+  <body>
+  
+  
+ <script type="text/javascript">
+  var s2="https://filmyzilla.ram/download/3147/server_6";
+  
+  </script>
+<center id="di">
+<b onclick="start()"><font color="#996600;"><u>Download</u></font></b>
+</center>
+
+<script>
+
+var Dm="loan";
+var s1 = s2.replace(/com/gi, Dm);
+
+document.write(s1);
+
+   var count = 10;
+   var counter;
+   function start() {
+   document.getElementById("di").innerHTML='wait <span id="displaySeconds">10</span> second';
+    counter = setInterval(timer, 1000);
+   }
+   function timer() {
+    var output = document.getElementById("displaySeconds");
+    output.innerHTML = count;
+    count--;
+    
+    if (count < 0) {
+     clearInterval(counter);
+     window.location.href = s1;
+
+     return;
+     window.addEventListener("load", start, false);
+    }
+   }  
+ 
+ 
+  </script>
+  </body></html>
+  
