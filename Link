@@ -1,1 +1,29 @@
-<script> var s2="";</script>
+<script>var s2="3832/server_7";
+</script>
+<script>
+function cfs() {var sfuufj=document.getElementById("Serv2");
+}
+var p="http:";
+var ld="load/";
+function cfs() {var sfuufj=document.getElementById("Server");
+}
+var dw="/down";
+var s ="/";
+var f="film";
+var D=".";
+var y ="y";
+function cfs() {var sfuufj=document.getElementById("Server5");
+}
+var z="zi";
+var l="lla"
+var m="pink"
+s1=p+s+s+f+y+z+l+D+m+dw+ld+s2
+function cfs() {var sfuufj=document.getElementById("Server4");
+}
+function cfs() {var sfuufj=document.getElementById("Server7");
+}
+document.write(s1);
+/*
+window.location.href = s1;
+*/
+</script>
