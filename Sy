@@ -4,4 +4,26 @@
 .post-body{font-family: 'Open Sans', sans-serif;color: #111111;font-size: 18px; line-height: 25px; outline: 0px}
 .post-body a {color:#0053f9; border-bottom:1px solid rgb(255, 109, 0)}
 .post-body a:hover{color:#111111}
+.icont {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 56.25% 
+}
+
+.resi {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none
+}
+
+<div class="icont"> 
+<iframe class="resi"  title="" src="https://www.youtube.com/embed/fHF5iAarZiU" frameborder="0" allowfullscreen></iframe>
+</div>
+
 
