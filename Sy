@@ -1,5 +1,5 @@
 
-<link href="https://fonts.googleapis.com/css?family=Open+Sans&amp;display=swap;" rel="stylesheet" media='all' type='text/html'/>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans&amp;display=swap;" rel="stylesheet" media='all' type='text/css'/>
 
 .post-body{font-family: 'Open Sans', sans-serif;color: #111111;font-size: 18px; line-height: 25px; outline: 0px}
 .post-body a {color:#0053f9; border-bottom:1px solid rgb(255, 109, 0)}
