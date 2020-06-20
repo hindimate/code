@@ -1,0 +1,16 @@
+<iframe frameborder="0" id="frame" src="" style="display: none;" width="100%"></iframe>
+
+
+<script type="text/javascript">
+
+var ur=window.location.href;
+var gt=ur.split('tml?')[1];/*
+gt=gt.split('DD')[0];*/
+gt="https://drive.google.com/uc?export=download&id="+gt;
+var h1 = document.getElementById("frame");
+var att = document.createAttribute("src");
+att.value = gt; 
+         h1.setAttributeNode(att);              
+
+
+</script>
