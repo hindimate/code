@@ -1,0 +1,5 @@
+document.addEventListener("DOMContentLoaded", function(event) {
+var i1 = document.getElementsByTagName("DIV").length;
+ var i2=i1-1;
+document.getElementsByTagName("DIV")[i2].style.display="none";    
+  });
