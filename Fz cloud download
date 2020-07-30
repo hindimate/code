@@ -1,0 +1,20 @@
+var ur=window.location.href;
+var s0=parseInt(ur.split('tml?')[1]);
+var p="http:";
+var ld="load/";
+var dw="/down";
+var s ="/";
+var f="film";
+var D=".";
+var y ="y";
+var z="zi";
+var l="lla";
+var m="guru";
+
+s1=p+s+s+f+y+z+l+D+m+dw+ld+s0+"/server_7";
+if(s1.length>42){
+window.location.href = s1;
+}
+
+
+ 
