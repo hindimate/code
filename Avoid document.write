@@ -1,0 +1,11 @@
+var sNew = document.createElement("script");
+sNew.async = true;
+sNew.src = home_page+"feeds/posts/summary?max-results=1&alt=json-in-script&callback=hitungtotaldata";
+var s0 = document.getElementsByTagName('script')[0];
+s0.parentNode.insertBefore(sNew, s0);
+
+var sew = document.createElement("script");
+sew.async = true;
+sew.src = home_page+'feeds/posts/summary/-/'+lblname1+'?alt=json-in-script&callback=hitungtotaldata&max-results=1';
+var s1 = document.getElementsByTagName('script')[0];
+s1.parentNode.insertBefore(sew, s1);
