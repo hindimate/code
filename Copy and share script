@@ -1,0 +1,29 @@
+.sayari{float:none;position:relative;width:100%;max-width:100%;display:inline-block;height:auto;box-sizing:content-box;margin-bottom:10px}
+.sayari:nth-child(odd){clear:both}
+.sayari-box p{padding:10px 10px;font-size:20px;font-weight:bold;line-height:24px}
+.sayari-box{padding:14px 0 0 0;margin:16px 0;background:#fff;
+color:#000; border: 3px outset red; border-radius:7px}
+.copy-box{display:block;position:relative;padding:20px 0;display:flex;justify-content:space-between;align-content:center;align-items:center}
+.copy-box span{text-align:center;display:flex;justify-content:center;align-items:center;width:100%;margin:0 2%;cursor:pointer}
+.copy-box span:hover{background:#311b92;transition:0.8s ease-in-out}
+.copy-box span i{font-size:20px;padding-right:7px}
+.shareme{padding:4px;background:green;color:#fff;border-radius:3px}
+.copyme{padding:4px;background:#6a1b9a;color:#fff;border-radius:3px}
+@media screen and (max-width:700px){
+.sayari{float:none;max-width:100%;box-sizing:border-box;margin-bottom:15px}
+.sayari-box{margin:0 auto}
+.post-body{padding:12px}
+}
+
+
+<div class="sayari">
+Text...
+</div>
+jQuery
+
+<script type='text/javascript'>
+//<![CDATA[
+//sayari copy and share script by Sagar
+$(".sayari").contents().filter(function(){return 1!==this.nodeType}).wrap("<p class='copy-content'></p>"),$(".copy-content").wrap('<div class="sayari-box"/>'),$(".share-links").append('<div class="widget-admin"> </div>'),$(".sayari .sayari-box").append('<div class="copy-box"><span class="shareme"> Share on Whp</span><span class="copyme"> Copy</span></div>');$(function(){$(".copyme").click(function(e){e.preventDefault();var t=$("<input>");$("body").append(t),$(this).css({background:"#d50000"}),t.val($(this).parent(".copy-box").parent(".sayari-box").find("> .copy-content").text()).select(),document.execCommand("copy"),alert("copied the text"),t.remove()}),$(".shareme").click(function(){var origin = window.location.origin;var e=$(this).parent(".copy-box").parent(".sayari-box").find(" > .copy-content").text(),t="https://api.whatsapp.com/send?text="+encodeURIComponent(e)+ " Viral-Status.com " ;window.open(t,"_blank")})});
+//]]>
+</script>
