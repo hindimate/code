@@ -1,0 +1,39 @@
+<html>
+   <body>
+      <script>
+      if(3==3){
+        window.onload = function () {var toc = "";var level = 1;document.getElementById("contents").innerHTML =
+            document.getElementById("contents").innerHTML.replace(/<h([\d])>([^<]+)<\/h([\d])>/gi,
+function (str, openLevel, titleText, closeLevel) {if (openLevel != closeLevel) {return str;}if (openLevel > level) {toc += (new Array(openLevel - level + 1)).join("<ul>");} else if (openLevel < level) { toc += (new Array(level - openLevel + 1)).join("</ul>"); }level = parseInt(openLevel);
+var anchor = titleText.replace(/ /g, "_"); toc += "<li><a href=\"#" + anchor + "\">" +titleText +
+                  "</a></li>";
+
+                return "<h" + openLevel + "><a name=\"" + anchor + "\">" +
+                  titleText + "</a></h" + closeLevel + ">";
+              }
+            );
+
+          if (level) {
+            toc += (new Array(level + 1)).join("</ul>");
+          }
+
+          document.getElementById("toc").innerHTML += toc;
+        }}
+        
+      
+      </script>
+      <div id="toc"></div>
+      <div id="contents">
+      
+         tu hi hai kya to f to
+         <h2>Second level heading (h2)</h2>ggyyuuh to f
+         <h2>Another heading (h2)</h2>
+         <h3>Sub heading (h3)</h3>
+         <h2>One more second level yvyvuvuvubububububbububububuvbuvuv v7g7b7bububib heading (h2)</h2>
+
+tui ki vidhi in
+
+<h3>g phone d'rtt 66 and</h3>
+      </div>
+   </body>
+</html>
