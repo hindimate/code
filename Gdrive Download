@@ -6,7 +6,7 @@
 var ur=window.location.href;
 var gt=ur.split('tml?')[1];
 
-gt="https://drive.google.com/uc?export=download&id="+gt;
+gt="https://docs.google.com/uc?export=download&id="+gt;
 var h1 = document.getElementById("frame");
 var att = document.createAttribute("src");
 att.value = gt; 
