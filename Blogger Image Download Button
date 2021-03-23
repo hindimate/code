@@ -1,0 +1,26 @@
+<html>
+<body>
+<div id="pb">
+<div class="separator" style="clear: both; text-align: center;"><a href="https://1.bp.blogspot.com/-W-y6X-BQ5TM/YFOTBaNnMrI/AAAAAAAAC4g/zbUeuxyQj-8ckPV4XPFlPYplct_oPELGgCLcBGAsYHQ/s1220/Holi%2BRomantic%2BShayari%2BHoli%2BShayari%2BLove%2BRomantic%2BHindi.jpg" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="686" data-original-width="1220" src="https://1.bp.blogspot.com/-W-y6X-BQ5TM/YFOTBaNnMrI/AAAAAAAAC4g/zbUeuxyQj-8ckPV4XPFlPYplct_oPELGgCLcBGAsYHQ/s320/Holi%2BRomantic%2BShayari%2BHoli%2BShayari%2BLove%2BRomantic%2BHindi.jpg" width="320" /></a></div>
+
+<div class="separator" style="clear: both; text-align: center;"><a href="https://1.bp.blogspot.com/-9JwpFbuKDVY/YFJOOWTo0XI/AAAAAAAAC3k/O5TCL_6RCSMfWm6hYxQtyzEaB8QbFADCgCPcBGAYYCw/s1240/Holi%2BWishes%2BIn%2BHindi%2BWith%2BName%2BAnd%2BPhoto.jpg" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="675" data-original-width="1240" src="https://1.bp.blogspot.com/-9JwpFbuKDVY/YFJOOWTo0XI/AAAAAAAAC3k/O5TCL_6RCSMfWm6hYxQtyzEaB8QbFADCgCPcBGAYYCw/s320/Holi%2BWishes%2BIn%2BHindi%2BWith%2BName%2BAnd%2BPhoto.jpg" width="320" /></a></div>
+
+</div>
+
+
+
+
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js' type='text/javascript'></script>
+<script type="text/javascript">
+
+$('#pb .separator').after('<a href="htt" class="download button" rel="nofollow">Download</a>').wrap("<center> </center>");
+var n=document.querySelectorAll('#pb .download').length;
+var i;
+for (i = 0; i<n; i++) {
+document.getElementById("pb").getElementsByClassName("download")[i].href=document.getElementById("pb").getElementsByClassName("separator")[i].getElementsByTagName("a")[0].getAttribute("href")+"?dl=1";
+}
+
+
+</script>
+</body>
+</html>
