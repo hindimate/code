@@ -3,3 +3,7 @@ media='print' onload='this.media="all"'
 <Variable name="body.text.font" description="Font" hideEditor="true" type="font" default="14px Source Sans Pro, sans-serif"  value="14px Source Sans Pro, sans-serif"/>
 
 <Variable name="tabs.font" description="Font 2" hideEditor="true" type="font" default="14px Source Sans Pro, sans-serif"  value="14px Source Sans Pro, sans-serif"/>
+
+&lt;style type=&quot;text/css&quot;&gt;
+&lt;!-- /*
+<b:skin><![CDATA[*/
