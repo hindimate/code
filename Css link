@@ -7,3 +7,7 @@ media='print' onload='this.media="all"'
 &lt;style&gt;
 &lt;!-- /*
 <b:skin><![CDATA[*/
+
+&lt;!--</head>--&gt;&lt;/head&gt;
+
+&lt;!--</body>--&gt;&lt;/body&gt;
